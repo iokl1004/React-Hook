@@ -1,0 +1,6 @@
+1. 리액트 프로젝트 생성하는법
+npx create-react-app 프로젝트명
+
+
+2. 리액트 실행하는 법
+VS코드에서 터미널을 오픈하여 npm start run 입력 후 Enter
