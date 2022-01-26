@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Counter from './Counter';
 import Info from './Info';
 import ContextSample from './ContextSample';
+import Average from './Average';
+import UsePromiseSample from './UsePromiseSample';
 
 function App() {
   const [visible, saetVisible] = useState(false);
@@ -23,8 +25,16 @@ function App() {
 
     // 4. useReducer
     // <Counter />
-    <Info />
+    // <Info />
 
+    // 5. useMemo
+    //<Average />
+
+    // 8.1 useInputs
+    // <Info />
+
+    // 8.2 usePromise
+    <UsePromiseSample />
   );
 };
 
